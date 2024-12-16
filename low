@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+ int a;
+ printf("Enter the number:");
+ scanf("%d",&a);
+ switch(a)
+  {
+    case 'R':
+    printf("stop");
+    break;
+
+    case 'Y':
+    printf("wait");
+    break;
+
+    case'G':
+    printf("go");
+    break;
+
+    default:
+    printf("invalid"):
+    break;
+ }
+}
